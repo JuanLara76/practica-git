@@ -17,4 +17,9 @@ public class Carro {
         sb.append("Color: ").append(color).append("\n");
         return sb.toString();
     }
+     int velocidad;
+
+    public void acelerar() {
+        velocidad += 10;
+    }
 }
