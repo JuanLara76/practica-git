@@ -16,10 +16,16 @@ public class Carro {
         sb.append("Marca: ").append(marca).append("\n");
         sb.append("Color: ").append(color).append("\n");
         return sb.toString();
+        
     }
-     int velocidad;
+        int velocidad;
 
     public void acelerar() {
         velocidad += 10;
     }
-}
+        public void frenar() {
+        velocidad = 0;
+    }
+    
+    }
+
